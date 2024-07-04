@@ -1,0 +1,286 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "weekly",
+    "collectionId": "33725350-6243-4276-ba14-47aa796e509f",
+    "dateExported": "2024-06-19T13:23:44.990Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3afe685d-293f-4411-a845-8dc5787890b3",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Get All Paket Based On Name",
+            "url": "http://localhost:8080/api/pengiriman/checkpoint?nama=<Tangerang-00003>",
+            "method": "GET",
+            "sortNum": 312.5,
+            "created": "2024-06-18T13:03:25.503Z",
+            "modified": "2024-06-18T13:22:19.159Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "nama",
+                    "value": "<Tangerang-00003>",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "8b18f499-4478-4491-98f7-2d2da277cbff",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Update Single Pengiriman",
+            "url": "http://localhost:8080/api/pengiriman/1",
+            "method": "POST",
+            "sortNum": 625,
+            "created": "2024-06-18T11:22:25.711Z",
+            "modified": "2024-06-19T06:35:02.529Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 3\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ec74908b-4eed-40b4-a359-0dc363f78677",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Get All Paket Received",
+            "url": "http://localhost:8080/api/pengiriman/received",
+            "method": "GET",
+            "sortNum": 1250,
+            "created": "2024-06-18T10:02:41.865Z",
+            "modified": "2024-06-18T10:02:55.568Z",
+            "headers": []
+        },
+        {
+            "_id": "c717931c-373c-491b-bd3b-e4e50031a435",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Get All Pengiriman",
+            "url": "http://localhost:8080/api/pengiriman",
+            "method": "GET",
+            "sortNum": 2500,
+            "created": "2024-06-17T10:31:04.894Z",
+            "modified": "2024-06-17T10:36:38.215Z",
+            "headers": []
+        },
+        {
+            "_id": "f1fddf11-5e94-4f6f-9cf5-b4f1bc915d10",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Post Single Pengiriman",
+            "url": "http://localhost:8080/api/pengiriman",
+            "method": "POST",
+            "sortNum": 3750,
+            "created": "2024-06-17T10:31:18.175Z",
+            "modified": "2024-06-19T06:34:18.438Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"jasa\": {\n    \"id\": 1\n  },\n  \"paket\": {\n    \"id\": 1\n  },\n  \"checkpoint\": [\n    {\n      \"id\": 1\n    },\n    {\n      \"id\": 3\n    },\n    {\n      \"id\": 2\n    }\n  ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9d690582-6b97-4a53-af61-64a54f24b915",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Get All Paket",
+            "url": "http://localhost:8080/api/paket",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2024-06-17T10:07:17.840Z",
+            "modified": "2024-06-17T10:07:34.498Z",
+            "headers": []
+        },
+        {
+            "_id": "37499960-c096-4db9-bbfd-c400df2f695c",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Post Single Paket",
+            "url": "http://localhost:8080/api/paket",
+            "method": "POST",
+            "sortNum": 7500,
+            "created": "2024-06-17T10:07:39.539Z",
+            "modified": "2024-06-19T07:51:49.148Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"pengirim\": {\n    \"id\": 1\n  },\n  \"penerima\": {\n    \"id\": 1\n  },\n  \"tujuan\": {\n    \"id\": 2\n  },\n  \"berat\": 13.5\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9991aa3d-d860-41e7-a0c9-3148d835bbc0",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Get All Lokasi",
+            "url": "http://localhost:8080/api/lokasi",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-17T05:59:16.603Z",
+            "modified": "2024-06-17T05:59:40.122Z",
+            "headers": []
+        },
+        {
+            "_id": "d5463770-0326-449d-84c4-7928ceb838eb",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Post Single Lokasi",
+            "url": "http://localhost:8080/api/lokasi",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2024-06-17T05:59:43.007Z",
+            "modified": "2024-06-17T10:28:26.703Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nama\": \"Tangerang\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a5c8f402-7fb2-43d1-a55b-3f20759576f1",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Post Multiple Lokasi",
+            "url": "http://localhost:8080/api/lokasi/bulk",
+            "method": "POST",
+            "sortNum": 17500,
+            "created": "2024-06-17T09:25:16.548Z",
+            "modified": "2024-06-17T10:28:30.453Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n    \"nama\": \"Jakarta\"\n  },\n  {\n    \"nama\": \"Bandung\"\n  }\n]",
+                "form": []
+            }
+        },
+        {
+            "_id": "7f7ee3ff-6811-4489-91f5-76d996476b02",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Get All Jasa",
+            "url": "http://localhost:8080/api/jasa",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-14T09:19:56.408Z",
+            "modified": "2024-06-14T09:20:06.808Z",
+            "headers": []
+        },
+        {
+            "_id": "15797a68-c121-4c6b-acab-6475d02a21d3",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Post Single Jasa",
+            "url": "http://localhost:8080/api/jasa",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-06-14T09:20:40.904Z",
+            "modified": "2024-06-17T16:58:18.507Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nama\": \"jasa2\",\n  \"harga\": 5600.00\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "53f2863f-ade3-42d2-9002-0d748b04946f",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Get All Pengirim",
+            "url": "http://localhost:8080/api/pengirim",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-06-14T09:32:23.221Z",
+            "modified": "2024-06-14T09:32:48.585Z",
+            "headers": []
+        },
+        {
+            "_id": "b2e3875d-eea9-47f3-b754-ad9aaf3c8f0b",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Post Single Pengirim",
+            "url": "http://localhost:8080/api/pengirim",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-06-14T09:33:06.053Z",
+            "modified": "2024-06-17T16:58:05.737Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nama\": \"pengirim2\",\n  \"telepon\": \"085779834539\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6c37d82f-1ff0-482e-b95b-9b49b72823e5",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Get All Penerima",
+            "url": "http://localhost:8080/api/penerima",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-06-17T10:01:01.443Z",
+            "modified": "2024-06-19T09:42:24.732Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzM4NCJ9.eyJpc1VzZXIiOnRydWUsInN1YiI6IlVTRVIiLCJpYXQiOjE3MTg3OTAwNzQsImV4cCI6MTcxODc5MzY3NH0.zC3y8QuS1Mp3y0aLdaAJihmqJJ3CUPzr3oTe5Uugueif3d8B3l2KpTmOfGy2qDAI"
+            }
+        },
+        {
+            "_id": "69c48f1c-a484-43b7-b0b3-8de020164938",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Post Single Penerima",
+            "url": "http://localhost:8080/api/penerima",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-06-17T10:01:32.653Z",
+            "modified": "2024-06-19T09:42:38.085Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nama\": \"penerima\",\n  \"telepon\": \"085779834539\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzM4NCJ9.eyJpc1VzZXIiOnRydWUsInN1YiI6IlVTRVIiLCJpYXQiOjE3MTg3OTAxNTEsImV4cCI6MTcxODc5Mzc1MX0.To994P4Ye4wxpXkUHXlE8wdYVMVokbsrPCnWQnTa38nRYrFUgij_oxNXYycPeNxU"
+            }
+        },
+        {
+            "_id": "9a9c0889-cb6a-4b14-acf4-209031eed7c3",
+            "colId": "33725350-6243-4276-ba14-47aa796e509f",
+            "containerId": "",
+            "name": "Get JWT Token",
+            "url": "http://localhost:8080/authenticate",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-06-19T06:43:08.454Z",
+            "modified": "2024-06-19T09:40:32.869Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"USER\",\n  \"password\": \"USER\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "W3grI7QXI6Gao7b98EM4ScmFb1M0GASdQK1e8VwY2m_siVOfKjocTDCkJAKQFkm8kohinL0EtUAMRi5IgdQCgQ"
+}
